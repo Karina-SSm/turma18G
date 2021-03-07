@@ -45,7 +45,19 @@ public class Conta {
 	public void setAtiva(boolean ativa) {
 		this.ativa = ativa;
 	}
+	  public void credito(double valor) {   //métodos
+	        this.saldo = this.saldo + valor;
+	    }
+	  public void debito(double valor) {
+	        if (this.saldo >= valor) {
+	            this.saldo = this.saldo - valor;
+	        } else {
+
+
+		   
+	}
 	
+	  }
 }
 
 
